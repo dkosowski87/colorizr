@@ -1,0 +1,8 @@
+1) How does your gem take advantage of Ruby’s metaprogramming capabilities?
+	It creates dynamically the color methods by using define_method from the Module class. Going through a hash of colors and color codes it defines an appropriate instance method in the String class.
+2) How long did you spend working on this project?
+	About 4-5 hours.
+3) What was the most rewarding challenge you conquered?
+	Getting through the idea of metaprogramming and understanding the relations between particular objects in ruby.
+4) Where do you still have room to grow?
+	Exploring even further the concepts of metaprogramming.
